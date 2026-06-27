@@ -1,4 +1,4 @@
-# 🛒 TugasAkhirSem2 Sistem Transaksi Barang
+# 🛒 SimpleTransaksiApp Sistem Transaksi Barang
 
 > Aplikasi desktop manajemen barang & transaksi penjualan berbasis Java GUI dibangun untuk menyelesaikan studi kasus pencatatan barang, transaksi, dan perhitungan total belanja secara otomatis.
 
@@ -11,7 +11,7 @@
 
 ## 📌 Tentang Project
 
-**TugasAkhirSem2** adalah aplikasi desktop berbasis Java Swing (NetBeans) yang dibangun untuk mengelola data barang dan mencatat transaksi penjualan secara real-time, terkoneksi langsung ke database **MySQL**. Project ini dibuat sebagai tugas akhir semester, dengan fokus pada penerapan konsep CRUD, koneksi database, dan validasi input pada aplikasi desktop.
+**SimpleTransaksiApp** adalah aplikasi desktop berbasis Java Swing (NetBeans) yang dibangun untuk mengelola data barang dan mencatat transaksi penjualan secara real-time, terkoneksi langsung ke database **MySQL**. Project ini dibuat sebagai tugas akhir semester, dengan fokus pada penerapan konsep CRUD, koneksi database, dan validasi input pada aplikasi desktop.
 
 ## ✨ Fitur Utama
 
