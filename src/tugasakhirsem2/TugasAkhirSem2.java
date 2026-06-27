@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 package tugasakhirsem2;
+
 import java.util.Scanner;
 
 /**
  *
- * @author User
+ * @author Corvoo
  */
 public class TugasAkhirSem2 {
 
@@ -20,7 +21,7 @@ public class TugasAkhirSem2 {
         String nama, id, namaBarang;
         int jumlahBarang, qty, i;
         double hargaBarang, totalHarga, totalBelanja, diskon, totalYangHarusDibayar;
-        
+
         System.out.println("   Selamat datang di Minimarket UNINDRA   ");
         System.out.println("-------------------------------------------");
         input.nextLine();
@@ -82,8 +83,8 @@ public class TugasAkhirSem2 {
         // Menampilkan total belanja, diskon, dan total yang harus dibayar
         System.out.println("--------------------------------------------");
         System.out.println("Data Pembeli");
-        System.out.println("Nama : " +nama);
-        System.out.println("ID   : " +id);
+        System.out.println("Nama : " + nama);
+        System.out.println("ID   : " + id);
         System.out.println("--------------------------------------------");
         System.out.println("===============Nota Pembelian===============");
         System.out.println("Total Belanja            : Rp " + totalBelanja);
@@ -93,5 +94,5 @@ public class TugasAkhirSem2 {
         // Menutup scanner
         input.close();
     }
-    
+
 }

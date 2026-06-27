@@ -12,16 +12,16 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author Corvoo
  */
 public class koneksi {
     Connection con;
     Statement stm;
-    
-    public void config(){
+
+    public void config() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost/tugasAkhirSem2", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/tugasAkhirSem2", "root", "");
             stm = con.createStatement();
             JOptionPane.showMessageDialog(null, "Koneksi Berhasil");
         } catch (Exception e) {
