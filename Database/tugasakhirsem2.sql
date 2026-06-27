@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 27, 2026 at 04:06 PM
+-- Generation Time: Jun 27, 2026 at 05:24 PM
 -- Server version: 8.4.3
 -- PHP Version: 8.3.16
 
@@ -48,14 +48,22 @@ INSERT INTO `barang` (`idBarang`, `namaBarang`, `hargaBarang`, `jumlahBarang`) V
 --
 
 CREATE TABLE `transaksi` (
-  `idPem` varchar(20) COLLATE utf8mb4_general_ci NOT NULL,
-  `idBarang` int NOT NULL,
-  `namapem` varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
-  `namaBarang` varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
+  `idPem` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `idBarang` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `namapem` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `namaBarang` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `hargaBarang` double NOT NULL,
   `qty` int NOT NULL,
   `totalBelanja` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `transaksi`
+--
+
+INSERT INTO `transaksi` (`idPem`, `idBarang`, `namapem`, `namaBarang`, `hargaBarang`, `qty`, `totalBelanja`) VALUES
+('F0001', 'BRG001', 'Ardi', 'Laptop', 11475000, 2, 22950000),
+('F0002', 'BRG001', 'Fauzan', 'Laptop', 11475000, 1, 11475000);
 
 --
 -- Indexes for dumped tables
