@@ -38,10 +38,10 @@
 TugasAkhirSem2/
 ├── assets/
 │   └── mysql-connector-java-8.0.26.jar   # Driver koneksi database
-├── build/                                # Hasil compile (auto-generated)
+├── build/                                
 ├── Database/
 │   └── tugasakhirsem2.sql                # Script database
-├── dist/                                 # Hasil build (auto-generated)
+├── dist/                                 
 ├── nbproject/                            # Konfigurasi NetBeans
 ├── src/
 │   └── tugasakhirsem2/
